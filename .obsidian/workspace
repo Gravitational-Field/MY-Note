@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "21faeeed50fee494",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a3816c5f43e893b",
+        "type": "leaf",
+        "dimension": 59.1225626740947,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Java/Java 基础.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ab41d21b8750a168",
+        "type": "leaf",
+        "dimension": 40.87743732590529,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Java/Java 基础.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "747ac6c7a9a45014",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f99a12b948a5c3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "079e5f4f2686d89e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8c9d2a685f4140bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "54091283a7ec9da3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 424
+  },
+  "right": {
+    "id": "c800a29ceed4a97b",
+    "type": "split",
+    "children": [
+      {
+        "id": "22c55e3c05b625a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be8405eb750adc19",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Java 基础.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87576d17796ca8b2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80b0cbb3a7af0f94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Java 基础.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Java/Java 基础.md",
+    "大数据/Snowflake.md",
+    "数据库/数据库基础.md",
+    "大数据/Hadoop.md",
+    "大数据/HBase.md",
+    "大数据/Untitled.md",
+    "Untitled.md",
+    "数据结构与算法/查找算法.md",
+    "数据结构与算法/排序算法.md",
+    "操作系统/TCP与IP.md"
+  ]
+}
