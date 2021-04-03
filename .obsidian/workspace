@@ -6,25 +6,12 @@
       {
         "id": "9a3816c5f43e893b",
         "type": "leaf",
-        "dimension": 59.1225626740947,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Java/Java 基础.md",
             "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "ab41d21b8750a168",
-        "type": "leaf",
-        "dimension": 40.87743732590529,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Java/Java 基础.md",
-            "mode": "preview"
           }
         }
       }
@@ -74,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424
+    "width": 231
   },
   "right": {
     "id": "c800a29ceed4a97b",
@@ -129,14 +116,14 @@
   },
   "lastOpenFiles": [
     "Java/Java 基础.md",
-    "大数据/Snowflake.md",
-    "数据库/数据库基础.md",
-    "大数据/Hadoop.md",
-    "大数据/HBase.md",
-    "大数据/Untitled.md",
-    "Untitled.md",
-    "数据结构与算法/查找算法.md",
-    "数据结构与算法/排序算法.md",
-    "操作系统/TCP与IP.md"
+    "Java/多线程.md",
+    "架构设计/微服务架构.md",
+    "架构设计/架构演进.md",
+    "架构设计/关键系统.md",
+    "架构设计/分布式架构.md",
+    "计算机基础知识/操作系统基础.md",
+    "计算机基础知识/计算机网络.md",
+    "计算机基础知识/Http与Https.md",
+    "计算机基础知识/TCP与IP.md"
   ]
 }
