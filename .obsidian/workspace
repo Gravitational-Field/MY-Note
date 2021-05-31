@@ -6,11 +6,10 @@
       {
         "id": "9a3816c5f43e893b",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Java/Java 基础.md",
+            "file": "数据结构与算法/基础数据结构.md",
             "mode": "source"
           }
         }
@@ -43,8 +42,8 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -77,10 +76,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java 基础.md",
+                "file": "数据结构与算法/基础数据结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -103,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java 基础.md"
+                "file": "数据结构与算法/基础数据结构.md"
               }
             }
           }
@@ -114,16 +115,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "9a3816c5f43e893b",
   "lastOpenFiles": [
-    "Java/Java 基础.md",
-    "Java/多线程.md",
-    "架构设计/微服务架构.md",
-    "架构设计/架构演进.md",
-    "架构设计/关键系统.md",
-    "架构设计/分布式架构.md",
-    "计算机基础知识/操作系统基础.md",
-    "计算机基础知识/计算机网络.md",
-    "计算机基础知识/Http与Https.md",
-    "计算机基础知识/TCP与IP.md"
+    "数据结构与算法/Untitled.md",
+    "数据结构与算法/排序算法.md",
+    "中间件/MyBatis.md",
+    "README.md",
+    "模板模式.png",
+    "中间件/布隆过滤器.md",
+    "数据库/Redis.md",
+    "数据库/MySql.md",
+    "数据库/MongoDB.md",
+    "数据库/数据库基础.md"
   ]
 }
