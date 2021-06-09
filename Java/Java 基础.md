@@ -1,4 +1,4 @@
-## 一、数据类型
+ ## 一、数据类型
 
 ### 基本类型
 
@@ -12,9 +12,10 @@
 - boolean/~
 
 **补充一个表，字节数、数据范围、缓冲池范围**
-
+![[Pasted image 20210531104802.png]]
 boolean 只有两个值：true、false，可以使用 1 bit 来存储，但是具体大小没有明确规定。JVM 会在编译时期将 boolean 类型的数据转换为 int，使用 1 来表示 true，0 表示 false。JVM 支持 boolean 数组，但是是通过读写 byte 数组来实现的
 
+`Byte`,`Short`,`Integer`,`Long` 这 4 种包装类默认创建了数值 **\[-128，127\]** 的相应类型的缓存数据，`Character` 创建了数值在\[0,127\]范围的缓存数据，`Boolean` 直接返回 `True` Or `False`。两种浮点数类型的包装类 `Float`,`Double` 并没有实现常量池技术。缓存的范围区间的大小只是在性能和资源之间的权衡。
 
 
 ### 包装类型
@@ -59,7 +60,7 @@ getClass() 方法返回对象所属的类，是一个 Class 对象。通过 Clas
 
 hashcode如何计算？
 
-
+hashCode是为了产生一段数值，使两个内容相等的对象，hashcode值相同。如果不重写hashcode方法，会调用Object的hashCode方法，导致两个对象永远不会相同。
 
 equals方法和 == 的区别
 
@@ -72,6 +73,17 @@ equals为true 和 hashcode码的关系
 hash值如何计算？
 
 ### Object类和泛型
+
+
+
+
+
+
+
+
+
+
+
 
 
 
