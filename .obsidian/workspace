@@ -4,15 +4,36 @@
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "f1c6727239f4b5a9",
+=======
+        "id": "018c2cf61d8887ab",
+>>>>>>> Stashed changes
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< Updated upstream
             "file": "Java/JVM.md",
+=======
+            "file": "Java/Java进阶.md",
+>>>>>>> Stashed changes
             "mode": "source"
           }
-        }
+        },
+        "group": "29e8fdbe69beb64c"
+      },
+      {
+        "id": "0c530151199766e2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Java/Java进阶.md",
+            "mode": "preview"
+          }
+        },
+        "group": "29e8fdbe69beb64c"
       }
     ],
     "direction": "vertical"
@@ -47,28 +68,58 @@
                 "sortOrder": "alphabetical"
               }
             }
+<<<<<<< Updated upstream
+=======
+          },
+          {
+            "id": "32fe74e02f0aa8cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工具/Nginx.md",
+                "mode": "source"
+              }
+            }
+>>>>>>> Stashed changes
           }
         ]
       }
     ],
     "direction": "horizontal",
+<<<<<<< Updated upstream
     "width": 300
+=======
+    "width": 231
+>>>>>>> Stashed changes
   },
   "right": {
     "id": "bb090a06b2875c98",
     "type": "split",
     "children": [
       {
+<<<<<<< Updated upstream
         "id": "ef274865caa18bce",
         "type": "tabs",
         "children": [
           {
             "id": "aef6e08c9c70c6a6",
+=======
+        "id": "22c55e3c05b625a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be8405eb750adc19",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Java/JVM.md",
+=======
+                "file": "Java/Java进阶.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -77,7 +128,27 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+<<<<<<< Updated upstream
             }
+=======
+            }
+          },
+          {
+            "id": "87576d17796ca8b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "80b0cbb3a7af0f94",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+>>>>>>> Stashed changes
           }
         ]
       }
@@ -86,12 +157,26 @@
     "width": 300,
     "collapsed": true
   },
+<<<<<<< Updated upstream
   "active": "f1c6727239f4b5a9",
   "lastOpenFiles": [
     "Java/JVM.md",
     "Java/Java进阶.md",
     "Java/Java 容器.md",
     "Java/Java 基础.md",
+=======
+  "active": "018c2cf61d8887ab",
+  "lastOpenFiles": [
+    "Java/Java进阶.md",
+    "大数据/ClickHouse.md",
+    "未命名.md",
+    "工具/Nginx.md",
+    "数据结构与算法/排序算法.md",
+    "数据库/MySql.md",
+    "Java/Untitled.md",
+    "中间件/布隆过滤器.md",
+    "中间件/MyBatis.md",
+>>>>>>> Stashed changes
     "Java/多线程.md"
   ]
 }
