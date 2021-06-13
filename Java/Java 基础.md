@@ -16,11 +16,14 @@
 boolean 只有两个值：true、false，可以使用 1 bit 来存储，但是具体大小没有明确规定。JVM 会在编译时期将 boolean 类型的数据转换为 int，使用 1 来表示 true，0 表示 false。JVM 支持 boolean 数组，但是是通过读写 byte 数组来实现的
 
 `Byte`,`Short`,`Integer`,`Long` 这 4 种包装类默认创建了数值 **\[-128，127\]** 的相应类型的缓存数据，`Character` 创建了数值在\[0,127\]范围的缓存数据，`Boolean` 直接返回 `True` Or `False`。两种浮点数类型的包装类 `Float`,`Double` 并没有实现常量池技术。缓存的范围区间的大小只是在性能和资源之间的权衡。
+- 常量池的位置：
+ jdk1.6以前：有永久代（permanent generation），静态变量存放在永久代上。 jdk1.7：有永久代，但已经逐步“去永久代化”，字符串常量池，静态变量移除，保存在堆中。 jdk1.8及以后：无永久代，类型信息，字段，方法，常量，保存在本地内存的元空间，但字符串常量池，静态变量仍在堆。
 
 
 ### 包装类型
 
 基本类型都有对应的包装类型，基本类型与其对应的包装类型之间的赋值使用自动装箱与拆箱完成。
+
 
 
 
@@ -72,25 +75,22 @@ equals为true 和 hashcode码的关系
 
 hash值如何计算？
 
+
+- **深拷贝和浅拷贝**
+1.  **浅拷贝**：对基本数据类型进行值传递，对引用数据类型进行引用传递般的拷贝，此为浅拷贝。
+2.  **深拷贝**：对基本数据类型进行值传递，对引用数据类型，创建一个新的对象，并复制其内容，此为深拷贝。
+
+![deep and shallow copy](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/java-deep-and-shallow-copy.jpg)
+
+
 ### Object类和泛型
 
 
 
 
-
-
-
-
-<<<<<<< Updated upstream
-
-
-
-
-
-
-=======
->>>>>>> Stashed changes
 ## 三、 Class类
+
+
 
 
 
@@ -170,7 +170,7 @@ String不可变性的好处：
 **Comparable：**
 - Comparable是一个排序接口。当一个类实现了该接口，即表示该类支持排序。排序规则按照实现的方法compareTo来确定， 比如说实现了Comparable接口的类的对象的列表或数组可以通过Collections.sort或Arrays.sort进行自动排序。实现此接口的对象可以用作有序映射中的键或有序集合中的集合，无需指定比较器。
 
-**Comparator：**、
+**Comparator：**
 - Comparator是比较接口，我们如果需要控制某个类的次序，而该类本身不支持排序(即没有实现Comparable接口)，那么我们就可以建立一个“该类的比较器”来进行排序，这个“比较器”只需要实现Comparator接口，并实现compare(T o1, T o2) 函数。也就是说，我们可以通过实现Comparator来新建一个比较器，然后通过这个比较器对类进行排序。   
 **使用：**
 ```java

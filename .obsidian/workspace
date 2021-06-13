@@ -1,19 +1,15 @@
 {
   "main": {
-    "id": "21faeeed50fee494",
+    "id": "bb719a93e706367d",
     "type": "split",
     "children": [
       {
-        "id": "3d44ca8f20af6ab5",
+        "id": "f1c6727239f4b5a9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
-            "file": "数据库/MySql.md",
-=======
-            "file": "数据库/Redis.md",
->>>>>>> Stashed changes
+            "file": "Java/JVM.md",
             "mode": "source"
           }
         }
@@ -22,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "747ac6c7a9a45014",
+    "id": "3201aa9a075e5b58",
     "type": "split",
     "children": [
       {
-        "id": "7f99a12b948a5c3f",
+        "id": "273d8db5b777e7c5",
         "type": "tabs",
         "children": [
           {
-            "id": "079e5f4f2686d89e",
+            "id": "301f9eb7f3c899cf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -38,7 +34,7 @@
             }
           },
           {
-            "id": "8c9d2a685f4140bf",
+            "id": "8cc5f6912105e8a1",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -46,73 +42,33 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "54091283a7ec9da3",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 280
+    "width": 300
   },
   "right": {
-    "id": "c800a29ceed4a97b",
+    "id": "bb090a06b2875c98",
     "type": "split",
     "children": [
       {
-        "id": "520f20f8b83b5bf5",
+        "id": "ef274865caa18bce",
         "type": "tabs",
         "children": [
           {
-            "id": "80b0cbb3a7af0f94",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "数据库/MySql.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-=======
-                "file": "数据库/Redis.md"
->>>>>>> Stashed changes
-              }
-            }
-          },
-          {
-            "id": "87576d17796ca8b2",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "3dd35462e07b4f0f",
+            "id": "aef6e08c9c70c6a6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/Redis.md",
+                "file": "Java/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,56 +78,20 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "75dd257a5020b0d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "数据库/MySql.md"
-=======
-                "file": "工具/消息队列.md",
-                "mode": "preview"
->>>>>>> Stashed changes
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 840,
+    "width": 300,
     "collapsed": true
   },
-<<<<<<< Updated upstream
-  "active": "9a3816c5f43e893b",
+  "active": "f1c6727239f4b5a9",
   "lastOpenFiles": [
-    "数据库/MySql.md",
-    "Java/Untitled.md",
-    "中间件/布隆过滤器.md",
-    "中间件/MyBatis.md",
-    "Java/多线程.md",
-    "Java/Java 基础.md",
-    "Java/Java 容器.md",
-    "数据库/数据库基础.md",
-    "数据结构与算法/基础数据结构.md",
-    "计算机基础知识/TCP与IP.md"
-=======
-  "active": "3d44ca8f20af6ab5",
-  "lastOpenFiles": [
-    "数据库/Redis.md",
-    "数据库/MySql.md",
     "Java/JVM.md",
-    "工具/消息队列.md",
-    "工具/Untitled.md",
-    "数据结构与算法/Untitled.md",
-    "Java/多线程.md",
+    "Java/Java进阶.md",
+    "Java/Java 容器.md",
     "Java/Java 基础.md",
-    "架构设计/分布式架构.md",
-    "计算机基础知识/计算机网络.md"
->>>>>>> Stashed changes
+    "Java/多线程.md"
   ]
 }
